@@ -1,0 +1,85 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.fiture-1 .fiture-bg{
+	background-image: url(img/img1.jpg);
+}.fiture-2 .fiture-bg{
+	background-image: url(img/img2.png);
+}.fiture-3 .fiture-bg{
+	background-image: url(img/img-3.jpg);
+}.fiture-4 .fiture-bg{
+	background-image: url(img/img-4.jpg);
+}
+.single-fiture-item {
+  position: relative;
+  z-index: 1;
+}
+.fiture-bg {
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  height: 100%;
+  content: "";
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+}
+
+.single-fiture-text {
+  background: #fff;
+  box-shadow: 0 0 10px#ddd;
+  position: relative;
+  padding: 40px;
+  padding-left: 120px;
+  border-bottom: 3px solid#fd5d3d;
+}
+body {
+  font-size: 17px;
+  line-height: 1.8;
+}
+.section-padding {
+	padding: 100px 0;
+}
+.single-fiture-text h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+}
+.fiture-no {
+  position: absolute;
+  left: 40px;
+  top: 6px;
+  font-size: 50px;
+  opacity: .3;
+  z-index: 1;
+  font-weight: 700;
+}
+.fiture-no:after {
+  position: absolute;
+  content: "";
+  right: 11px;
+  top: 11px;
+  background: #333;
+  height: 89px;
+  width: 1px;
+  transform: rotate(40deg);
+}
+.fiture-2 .single-fiture-text {
+  border-color: #2ac893;
+}
+
+
+
+
+
+
+
+
+
+
+
+
